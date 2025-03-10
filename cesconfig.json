@@ -1,0 +1,60 @@
+{
+  "cesVersion": "2.14.1",
+  "projectName": "padelrank",
+  "packages": [
+    {
+      "name": "expo-router",
+      "type": "navigation",
+      "options": {
+        "type": "tabs"
+      }
+    },
+    {
+      "name": "nativewindui",
+      "type": "styling",
+      "options": {
+        "selectedComponents": [
+          "action-sheet",
+          "activity-indicator",
+          "activity-view",
+          "avatar",
+          "bottom-sheet",
+          "date-picker",
+          "picker",
+          "progress-indicator",
+          "ratings-indicator",
+          "slider",
+          "text",
+          "toggle"
+        ]
+      }
+    },
+    {
+      "name": "zustand",
+      "type": "state-management"
+    },
+    {
+      "name": "supabase",
+      "type": "authentication"
+    }
+  ],
+  "flags": {
+    "noGit": false,
+    "noInstall": false,
+    "overwrite": false,
+    "importAlias": true,
+    "packageManager": "npm",
+    "eas": true,
+    "publish": false
+  },
+  "packageManager": {
+    "type": "npm",
+    "version": "10.9.2"
+  },
+  "os": {
+    "type": "Linux",
+    "platform": "linux",
+    "arch": "x64",
+    "kernelVersion": "5.15.146.1-microsoft-standard-WSL2"
+  }
+}
