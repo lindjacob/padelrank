@@ -5,13 +5,15 @@ import { SearchBarProps } from 'react-native-screens';
 import { useColorScheme } from './useColorScheme';
 
 import { COLORS } from '~/theme/colors';
+import { useLayoutEffect } from './useLayoutEffect';
+
 
 export function useHeaderSearchBar(props: SearchBarProps = {}) {
   const { colorScheme, colors } = useColorScheme();
   const navigation = useNavigation();
   const [search, setSearch] = React.useState('');
 
-  React.useLayoutEffect(() => {
+  useLayoutEffect(() => {
     navigation.setOptions({
       headerSearchBarOptions: {
         placeholder: 'Search...',

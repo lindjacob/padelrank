@@ -47,7 +47,7 @@ export default function Home() {
           keyboardShouldPersistTaps="handled"
           data={data}
           estimatedItemSize={200}
-          contentContainerClassName="py-4 android:pb-12"
+          contentContainerClassName="py-4"
           extraData={searchValue}
           removeClippedSubviews={false} // used for selecting text on android
           keyExtractor={keyExtractor}
